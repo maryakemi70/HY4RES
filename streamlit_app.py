@@ -42,67 +42,75 @@ objectives_pilot_text = {
                            "- Rehabilitate old installations to create a hybrid renewable energy system.")
 }
 
+# URL base del repositorio GitHub
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/maryakemi70/HY4RES/main"
+
 keys_figures_path = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\keysfigures_Irrigation System.JPG",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\keysfigures_Fisheries.JPG",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\keysfigures_Ports.JPG",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\keysfigures_Portugal.JPG"
+    "Irrigation System, Spain": f"{GITHUB_RAW_BASE}/images/keysfigures_Irrigation%20System.JPG",
+    "Fish Farm, Ireland": f"{GITHUB_RAW_BASE}/images/keysfigures_Fisheries.JPG",
+    "Port of Avilés, Spain": f"{GITHUB_RAW_BASE}/images/keysfigures_Ports.JPG",
+    "Energy Community, Portugal": f"{GITHUB_RAW_BASE}/images/keysfigures_Portugal.JPG"
 }
 
 images_path = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\irrigationspain.jpg",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\ireland.jpg",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\portspain.jpg",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\portugal.jpg"
+    "Irrigation System, Spain": f"{GITHUB_RAW_BASE}/images/irrigationspain.jpg",
+    "Fish Farm, Ireland": f"{GITHUB_RAW_BASE}/images/ireland.jpg",
+    "Port of Avilés, Spain": f"{GITHUB_RAW_BASE}/images/portspain.jpg",
+    "Energy Community, Portugal": f"{GITHUB_RAW_BASE}/images/portugal.jpg"
 }
 
 time_series_path = {
-    "Irrigation System, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\irrigation_time_series.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_weekday_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\Aggregated_time_serie_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_day_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_doiIrrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\histogram_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_monthIrrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_year_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\hurst_evolution_of_Irrigation System.html"],
-
-    "Fish Farm, Ireland": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_weekday_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\Aggregated_time_serie_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_day_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_doiFisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\histogram_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_monthFisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_year_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\hurst_evolution_of_Fisheries.html"],
-
-    "Port of Avilés, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_weekday_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\Aggregated_time_serie_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_day_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_doiPorts.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\histogram_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_monthPorts.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_year_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\hurst_evolution_of_Ports.html"],
-
-    "Energy Community, Portugal": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_weekday_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\Aggregated_time_serie_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_day_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_doiPortugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\histogram_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\time_serie_by_year_vs_monthPortugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\boxplot_year_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\hurst_evolution_of_Portugal.html"]
+    "Irrigation System, Spain": [
+        f"{GITHUB_RAW_BASE}/htmls/irrigation_time_series.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Irrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Irrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Irrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiIrrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/histogram_Irrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthIrrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Irrigation%20System.html",
+        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Irrigation%20System.html"
+    ],
+    "Fish Farm, Ireland": [
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_Fisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Fisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Fisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Fisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiFisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/histogram_Fisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthFisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Fisheries.html",
+        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Fisheries.html"
+    ],
+    "Port of Avilés, Spain": [
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_Ports.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Ports.html",
+        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Ports.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Ports.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiPorts.html",
+        f"{GITHUB_RAW_BASE}/htmls/histogram_Ports.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthPorts.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Ports.html",
+        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Ports.html"
+    ],
+    "Energy Community, Portugal": [
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_Portugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Portugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Portugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Portugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiPortugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/histogram_Portugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthPortugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Portugal.html",
+        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Portugal.html"
+    ]
 }
 
 outliers_path = {
-    "Irrigation System, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\outliers_analysis_Irrigation System.html"],
-    "Fish Farm, Ireland": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\outliers_analysis_Fisheries.html"],
-    "Port of Avilés, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\outliers_analysis_Ports.html"],
-    "Energy Community, Portugal": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\outliers_analysis_Portugal.html"]
+    "Irrigation System, Spain": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Irrigation%20System.html"],
+    "Fish Farm, Ireland": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Fisheries.html"],
+    "Port of Avilés, Spain": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Ports.html"],
+    "Energy Community, Portugal": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Portugal.html"]
 }
 
 outliers_percentage_text = {
@@ -209,27 +217,36 @@ outilers_number = {
     "Energy Community, Portugal": "372"}
 
 correlation_path = {
-    "Irrigation System, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\pearson_correlation_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\spearman_correlation_Irrigation System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_day_night_Irrigation_System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_weekday_vs_weekend_Irrigation_System.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_Boolean_precipitation_Irrigation_System.html"],
+    "Irrigation System, Spain": [
+        "htmls/pearson_correlation_Irrigation System.html",
+        "htmls/spearman_correlation_Irrigation System.html",
+        "htmls/biserial_day_night_Irrigation_System.html",
+        "htmls/biserial_weekday_vs_weekend_Irrigation_System.html",
+        "htmls/biserial_Boolean_precipitation_Irrigation_System.html"
+    ],
 
-    "Fish Farm, Ireland": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\pearson_correlation_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\spearman_correlation_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_day_night_Fisheries.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_weekday_vs_weekend_Fisheries.html"],
+    "Fish Farm, Ireland": [
+        "htmls/pearson_correlation_Fisheries.html",
+        "htmls/spearman_correlation_Fisheries.html",
+        "htmls/biserial_day_night_Fisheries.html",
+        "htmls/biserial_weekday_vs_weekend_Fisheries.html"
+    ],
 
-    "Port of Avilés, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\pearson_correlation_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\spearman_correlation_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_day_night_Ports.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_weekday_vs_weekend_Ports.html"],
+    "Port of Avilés, Spain": [
+        "htmls/pearson_correlation_Ports.html",
+        "htmls/spearman_correlation_Ports.html",
+        "htmls/biserial_day_night_Ports.html",
+        "htmls/biserial_weekday_vs_weekend_Ports.html"
+    ],
 
-    "Energy Community, Portugal": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\pearson_correlation_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\spearman_correlation_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_day_night_Portugal.html",
-                                 r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\biserial_weekday_vs_weekend_Portugal.html"]
+    "Energy Community, Portugal": [
+        "htmls/pearson_correlation_Portugal.html",
+        "htmls/spearman_correlation_Portugal.html",
+        "htmls/biserial_day_night_Portugal.html",
+        "htmls/biserial_weekday_vs_weekend_Portugal.html"
+    ]
 }
+
 
 correlation_labels = {
     "Irrigation System, Spain":
@@ -350,11 +367,12 @@ correlation_text = {
 }
 
 fuzzy_logic_path = {
-    "Irrigation System, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\fuzzy_surfaces_Irrigation_System.html"],
-    "Fish Farm, Ireland": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\fuzzy_surfaces_Fisheries.html"],
-    "Port of Avilés, Spain": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\fuzzy_surfaces_Ports.html"],
-    "Energy Community, Portugal": [r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\htmls\fuzzy_surfaces_Portugal.html"]
+    "Irrigation System, Spain": ["htmls/fuzzy_surfaces_Irrigation_System.html"],
+    "Fish Farm, Ireland": ["htmls/fuzzy_surfaces_Fisheries.html"],
+    "Port of Avilés, Spain": ["htmls/fuzzy_surfaces_Ports.html"],
+    "Energy Community, Portugal": ["htmls/fuzzy_surfaces_Portugal.html"]
 }
+
 
 fuzzylogic_text = {
     "Irrigation System, Spain": (
@@ -543,47 +561,46 @@ results_text = {
                           "- RMSE: 0.083\n"
                           "- MAE: 0.44 kWh\n"
 }
-
 results_r2_path = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\r2_Irrigation System.png",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\r2_Fisheries.png",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\r2_Ports.png",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\r2_Portugal.png"
+    "Irrigation System, Spain": "images/r2_Irrigation System.png",
+    "Fish Farm, Ireland": "images/r2_Fisheries.png",
+    "Port of Avilés, Spain": "images/r2_Ports.png",
+    "Energy Community, Portugal": "images/r2_Portugal.png"
 }
 
 results_pred_path = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Irrigation System2.png",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Fisheries2.png",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Ports2.png",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Portugal2.png"
+    "Irrigation System, Spain": "images/combined_Irrigation System2.png",
+    "Fish Farm, Ireland": "images/combined_Fisheries2.png",
+    "Port of Avilés, Spain": "images/combined_Ports2.png",
+    "Energy Community, Portugal": "images/combined_Portugal2.png"
 }
 
 results_pred_path2 = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Irrigation System.png",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Fisheries.png",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Ports.png",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Portugal.png"
+    "Irrigation System, Spain": "images/combined_Irrigation System.png",
+    "Fish Farm, Ireland": "images/combined_Fisheries.png",
+    "Port of Avilés, Spain": "images/combined_Ports.png",
+    "Energy Community, Portugal": "images/combined_Portugal.png"
 }
 
 results_pred_path3 = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Irrigation System3.png",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Fisheries3.png",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Ports3.png",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Portugal3png"
+    "Irrigation System, Spain": "images/combined_Irrigation System3.png",
+    "Fish Farm, Ireland": "images/combined_Fisheries3.png",
+    "Port of Avilés, Spain": "images/combined_Ports3.png",
+    "Energy Community, Portugal": "images/combined_Portugal3.png"
 }
 
 results_pred_path4 = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Irrigation System4.png",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Fisheries4.png",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Ports4.png",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\combined_Ports4.png"
+    "Irrigation System, Spain": "images/combined_Irrigation System4.png",
+    "Fish Farm, Ireland": "images/combined_Fisheries4.png",
+    "Port of Avilés, Spain": "images/combined_Ports4.png",
+    "Energy Community, Portugal": "images/combined_Portugal4.png"
 }
 
 results_loss_path = {
-    "Irrigation System, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\training_loss_Irrigation System.png",
-    "Fish Farm, Ireland": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\training_loss_Fisheries.png",
-    "Port of Avilés, Spain": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\training_loss_Ports.png",
-    "Energy Community, Portugal": r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\training_loss_Portugal.png"
+    "Irrigation System, Spain": "images/training_loss_Irrigation System.png",
+    "Fish Farm, Ireland": "images/training_loss_Fisheries.png",
+    "Port of Avilés, Spain": "images/training_loss_Ports.png",
+    "Energy Community, Portugal": "images/training_loss_Portugal.png"
 }
 
 hyperparameters_code_text = {
@@ -663,7 +680,7 @@ selected_analysis = st.sidebar.selectbox("Select Data Analysis", [
 selected_model = st.sidebar.selectbox("Forecast Model Results", model_options_by_site[selected_site])
 
 # --- Main Content ---
-img_path = Image.open(r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\InterregLogo.png")
+img_path = Image.open("images/InterregLogo.png")
 st.image(img_path, use_column_width=False)
 st.title("HY4RES: Hybrid Solutions For Renewable Energy Systems 🌱")
 st.header("WP 2.1: Forecasting Models for predicting real-time energy demand for different users (Agriculture, Aquaculture, Ports & Communities).")
@@ -689,7 +706,7 @@ with tab1:
 
     st.subheader("🧬 **TNN Architecture**:\n\n")
     st.write("Our prediction model is based on the original Transformer architecture proposed by Vaswani. The Transformer Neural Network (TNN) follows a recursive encoder-decoder structure, incorporating multi-head attention mechanisms and positional encoding while utilizing teacher forcing during training.\n")
-    img_path = Image.open(r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\TransformerArchitecture.png")
+    img_path = Image.open("images/TransformerArchitecture.png")
     st.image(img_path, use_column_width=True)
     st.write("- a) Encoder Layer\n"
              "- b) Decoder Layer\n"
@@ -700,7 +717,7 @@ with tab1:
     st.write("- -------------------------\n")
 
     st.subheader("🤖 **Model Framework Flowchart**:\n\n")
-    img_path = Image.open(r"C:\Users\Win\PycharmProjects\pythonProject\Streamlit\images\Flowchart.png")
+    img_path = Image.open("images/Flowchart.png")
     st.image(img_path, use_column_width=True)
     st.write("- 1) Data Pre-procesing and Data Analysis\n"
              "- 2) Training Step\n"
