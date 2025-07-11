@@ -42,75 +42,72 @@ objectives_pilot_text = {
                            "- Rehabilitate old installations to create a hybrid renewable energy system.")
 }
 
-# URL base del repositorio GitHub
-GITHUB_RAW_BASE = "https://raw.githubusercontent.com/maryakemi70/HY4RES/main"
-
 keys_figures_path = {
-    "Irrigation System, Spain": f"{GITHUB_RAW_BASE}/images/keysfigures_Irrigation%20System.JPG",
-    "Fish Farm, Ireland": f"{GITHUB_RAW_BASE}/images/keysfigures_Fisheries.JPG",
-    "Port of Avilés, Spain": f"{GITHUB_RAW_BASE}/images/keysfigures_Ports.JPG",
-    "Energy Community, Portugal": f"{GITHUB_RAW_BASE}/images/keysfigures_Portugal.JPG"
+    "Irrigation System, Spain": "images/keysfigures_Irrigation%20System.JPG",
+    "Fish Farm, Ireland": "images/keysfigures_Fisheries.JPG",
+    "Port of Avilés, Spain": "images/keysfigures_Ports.JPG",
+    "Energy Community, Portugal": "images/keysfigures_Portugal.JPG"
 }
 
 images_path = {
-    "Irrigation System, Spain": f"{GITHUB_RAW_BASE}/images/irrigationspain.jpg",
-    "Fish Farm, Ireland": f"{GITHUB_RAW_BASE}/images/ireland.jpg",
-    "Port of Avilés, Spain": f"{GITHUB_RAW_BASE}/images/portspain.jpg",
-    "Energy Community, Portugal": f"{GITHUB_RAW_BASE}/images/portugal.jpg"
+    "Irrigation System, Spain": "images/irrigationspain.jpg",
+    "Fish Farm, Ireland": "images/ireland.jpg",
+    "Port of Avilés, Spain": "images/portspain.jpg",
+    "Energy Community, Portugal": "images/portugal.jpg"
 }
 
 time_series_path = {
     "Irrigation System, Spain": [
-        f"{GITHUB_RAW_BASE}/htmls/irrigation_time_series.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Irrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Irrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Irrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiIrrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/histogram_Irrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthIrrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Irrigation%20System.html",
-        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Irrigation%20System.html"
+        "htmls/irrigation_time_series.html",
+        "htmls/boxplot_weekday_Irrigation%20System.html",
+        "htmls/Aggregated_time_serie_Irrigation%20System.html",
+        "htmls/boxplot_day_Irrigation%20System.html",
+        "htmls/time_serie_by_year_vs_doiIrrigation%20System.html",
+        "htmls/histogram_Irrigation%20System.html",
+        "htmls/time_serie_by_year_vs_monthIrrigation%20System.html",
+        "htmls/boxplot_year_Irrigation%20System.html",
+        "htmls/hurst_evolution_of_Irrigation%20System.html"
     ],
     "Fish Farm, Ireland": [
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_Fisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Fisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Fisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Fisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiFisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/histogram_Fisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthFisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Fisheries.html",
-        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Fisheries.html"
+        "htmls/time_serie_Fisheries.html",
+        "htmls/boxplot_weekday_Fisheries.html",
+        "htmls/Aggregated_time_serie_Fisheries.html",
+        "htmls/boxplot_day_Fisheries.html",
+        "htmls/time_serie_by_year_vs_doiFisheries.html",
+        "htmls/histogram_Fisheries.html",
+        "htmls/time_serie_by_year_vs_monthFisheries.html",
+        "htmls/boxplot_year_Fisheries.html",
+        "htmls/hurst_evolution_of_Fisheries.html"
     ],
     "Port of Avilés, Spain": [
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_Ports.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Ports.html",
-        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Ports.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Ports.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiPorts.html",
-        f"{GITHUB_RAW_BASE}/htmls/histogram_Ports.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthPorts.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Ports.html",
-        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Ports.html"
+        "htmls/time_serie_Ports.html",
+        "htmls/boxplot_weekday_Ports.html",
+        "htmls/Aggregated_time_serie_Ports.html",
+        "htmls/boxplot_day_Ports.html",
+        "htmls/time_serie_by_year_vs_doiPorts.html",
+        "htmls/histogram_Ports.html",
+        "htmls/time_serie_by_year_vs_monthPorts.html",
+        "htmls/boxplot_year_Ports.html",
+        "htmls/hurst_evolution_of_Ports.html"
     ],
     "Energy Community, Portugal": [
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_Portugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_weekday_Portugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/Aggregated_time_serie_Portugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_day_Portugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_doiPortugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/histogram_Portugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/time_serie_by_year_vs_monthPortugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/boxplot_year_Portugal.html",
-        f"{GITHUB_RAW_BASE}/htmls/hurst_evolution_of_Portugal.html"
+        "htmls/time_serie_Portugal.html",
+        "htmls/boxplot_weekday_Portugal.html",
+        "htmls/Aggregated_time_serie_Portugal.html",
+        "htmls/boxplot_day_Portugal.html",
+        "htmls/time_serie_by_year_vs_doiPortugal.html",
+        "htmls/histogram_Portugal.html",
+        "htmls/time_serie_by_year_vs_monthPortugal.html",
+        "htmls/boxplot_year_Portugal.html",
+        "htmls/hurst_evolution_of_Portugal.html"
     ]
 }
 
 outliers_path = {
-    "Irrigation System, Spain": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Irrigation%20System.html"],
-    "Fish Farm, Ireland": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Fisheries.html"],
-    "Port of Avilés, Spain": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Ports.html"],
-    "Energy Community, Portugal": [f"{GITHUB_RAW_BASE}/htmls/outliers_analysis_Portugal.html"]
+    "Irrigation System, Spain": ["htmls/outliers_analysis_Irrigation%20System.html"],
+    "Fish Farm, Ireland": ["htmls/outliers_analysis_Fisheries.html"],
+    "Port of Avilés, Spain": ["htmls/outliers_analysis_Ports.html"],
+    "Energy Community, Portugal": ["htmls/outliers_analysis_Portugal.html"]
 }
 
 outliers_percentage_text = {
