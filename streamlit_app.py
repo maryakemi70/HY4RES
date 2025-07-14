@@ -487,7 +487,8 @@ hyperparameters_text = {
          "- Teacher Forcing: Enabled\n"
         "- Performance metrics: MAE, R2\n"),
 
-    "Fish Farm, Ireland": (
+    "Fish Farm, Ireland": 
+        (
         "- Input variables: 6 selected variables\n"
         "- Output variable: Energy demand (kWh)\n"
         "- Learning rate: CustemSchedule\n"
@@ -501,42 +502,41 @@ hyperparameters_text = {
         "- Validation split: 0.15\n"
         "- Training epochs: 350\n"
         "- Teacher Forcing: Enabled\n"
-        "- Performance metrics: MAE, R2\n"
-    ),
+        "- Performance metrics: MAE, R2\n"),
+    
     "Port of Avilés, Spain":
         (
-            "- Input variables: 6 selected variables\n"
-            "- Output variable: Energy demand (kWh)\n"
-            "- Learning rate: CustemSchedule\n"
-            "- Batch size: 128\n"
-            "- Sequence length: 168\n"
-            "- Epochs: 350\n"
-            "- Optimizer: Adam",
-            "- Dropout rate: 0.1\n"
-            "- Loss function: MSE (Mean Squared Error)\n"
-            "- Early stopping, Patience: 10\n"
-            "- Validation split: 0.15\n"
-            "- Training epochs: 350\n"
-            "- Teacher Forcing: Enabled\n"
-            "- Performance metrics: MAE, R2\n"
-        ),
+        "- Input variables: 6 selected variables\n"
+        "- Output variable: Energy demand (kWh)\n"
+        "- Learning rate: CustemSchedule\n"
+        "- Batch size: 128\n"
+        "- Sequence length: 168\n"
+        "- Epochs: 350\n"
+        "- Optimizer: Adam",
+        "- Dropout rate: 0.1\n"
+        "- Loss function: MSE (Mean Squared Error)\n"
+        "- Early stopping, Patience: 10\n"
+        "- Validation split: 0.15\n"
+        "- Training epochs: 350\n"
+        "- Teacher Forcing: Enabled\n"
+        "- Performance metrics: MAE, R2\n"),
+    
     "Energy Community, Portugal":
         (
-            "- Input variables: 6 selected variables\n"
-            "- Output variable: Energy demand (kWh)\n"
-            "- Learning rate: CustemSchedule\n"
-            "- Batch size: 96\n"
-            "- Sequence length: 168\n"
-            "- Epochs: 350\n"
-            "- Optimizer: Adam",
-            "- Dropout rate: 0.1\n"
-            "- Loss function: MSE (Mean Squared Error)\n"
-            "- Early stopping, Patience: 10\n"
-            "- Validation split: 0.15\n"
-            "- Training epochs: 350\n"
-            "- Teacher Forcing: Enabled\n"
-            "- Performance metrics: MAE, R2\n"
-        )
+        "- Input variables: 6 selected variables\n"
+        "- Output variable: Energy demand (kWh)\n"
+        "- Learning rate: CustemSchedule\n"
+        "- Batch size: 96\n"
+        "- Sequence length: 168\n"
+        "- Epochs: 350\n"
+        "- Optimizer: Adam",
+        "- Dropout rate: 0.1\n"
+        "- Loss function: MSE (Mean Squared Error)\n"
+        "- Early stopping, Patience: 10\n"
+        "- Validation split: 0.15\n"
+        "- Training epochs: 350\n"
+        "- Teacher Forcing: Enabled\n"
+        "- Performance metrics: MAE, R2\n")
 }
 
 # Información sobre pronóstico energético por sitio
