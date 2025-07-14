@@ -215,8 +215,8 @@ outilers_number = {
 
 correlation_path = {
     "Irrigation System, Spain": [
-        "htmls/pearson_correlation_Irrigation System.html",
-        "htmls/spearman_correlation_Irrigation System.html",
+        "htmls/pearson_correlation_Irrigation%20System.html",
+        "htmls/spearman_correlation_Irrigation%20System.html",
         "htmls/biserial_day_night_Irrigation_System.html",
         "htmls/biserial_weekday_vs_weekend_Irrigation_System.html",
         "htmls/biserial_Boolean_precipitation_Irrigation_System.html"
