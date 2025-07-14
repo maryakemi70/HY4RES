@@ -855,7 +855,7 @@ with tab4:
         ipython~=8.27.0
         sympy~=1.13.1
         tabulate~=0.9.0
-        tensorflow~=2.10.0
+        tensorflow~=2.19.0
         keras~=2.10.0
         sklearn~=0.0
         scikit-learn~=1.6.1
@@ -925,8 +925,6 @@ with tab4:
 
         with st.expander("📄 Code"):
             st.code("""
-            Epoch 350, MSE_Loss_Train: 0.0005448752781376243, R2_Train: 0.9985947608947754, MAE_Train: 0.013299953192472458, 
-            MSE_Loss_Val: 0.0011772210709750652, R2_Val: 0.9970002770423889, MAE_Val: 0.023894090205430984
             Model: "transformer_model"
             _________________________________________________________________
              Layer (type)                Output Shape              Param #   
