@@ -21,9 +21,8 @@ These models learn from historical energy consumption data and additional factor
 Using real historical data from **2020 to 2023**, the models follow a sequential architecture to effectively capture complex temporal dependencies. Input variables include:
 
 - Weather conditions  
-- Energy prices  
-- Crop distribution  
-- Historical energy usage patterns  
+- Energy price  
+- Historical energy consumption
 
 ---
 
