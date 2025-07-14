@@ -471,12 +471,11 @@ model_options_by_site = {
 # Información sobre hiperparámetros por sitio
 hyperparameters_text = {
     "Irrigation System, Spain":
-        (
         "- Input variables: 12 selected variables\n"
         "- Output variable: Energy demand (kWh)\n"
         "- Data preprocessing: Normalization and scaling\n"
-        "- Learning rate: CustemSchedule\n"
-        "- Batch size:  96\n"
+        "- Learning rate: CustomSchedule\n"
+        "- Batch size: 96\n"
         "- Sequence length: 168\n"
         "- Optimizer: Adam\n"
         "- Dropout rate: 0.1\n"
@@ -484,60 +483,55 @@ hyperparameters_text = {
         "- Early stopping, Patience: 10\n"
         "- Validation split: 0.15\n"
         "- Training epochs: 350\n"
-         "- Teacher Forcing: Enabled\n"
-        "- Performance metrics: MAE, R2\n"),
+        "- Teacher Forcing: Enabled\n"
+        "- Performance metrics: MAE, R2",
 
     "Fish Farm, Ireland": 
-        (
         "- Input variables: 6 selected variables\n"
         "- Output variable: Energy demand (kWh)\n"
-        "- Learning rate: CustemSchedule\n"
+        "- Learning rate: CustomSchedule\n"
         "- Batch size: 96\n"
         "- Sequence length: 168\n"
-        "- Epochs: 350\n"
-        "- Optimizer: Adam",
+        "- Optimizer: Adam\n"
         "- Dropout rate: 0.1\n"
         "- Loss function: MSE (Mean Squared Error)\n"
         "- Early stopping, Patience: 10\n"
         "- Validation split: 0.15\n"
         "- Training epochs: 350\n"
         "- Teacher Forcing: Enabled\n"
-        "- Performance metrics: MAE, R2\n"),
-    
+        "- Performance metrics: MAE, R2",
+
     "Port of Avilés, Spain":
-        (
         "- Input variables: 6 selected variables\n"
         "- Output variable: Energy demand (kWh)\n"
-        "- Learning rate: CustemSchedule\n"
+        "- Learning rate: CustomSchedule\n"
         "- Batch size: 128\n"
         "- Sequence length: 168\n"
-        "- Epochs: 350\n"
-        "- Optimizer: Adam",
+        "- Optimizer: Adam\n"
         "- Dropout rate: 0.1\n"
         "- Loss function: MSE (Mean Squared Error)\n"
         "- Early stopping, Patience: 10\n"
         "- Validation split: 0.15\n"
         "- Training epochs: 350\n"
         "- Teacher Forcing: Enabled\n"
-        "- Performance metrics: MAE, R2\n"),
-    
+        "- Performance metrics: MAE, R2",
+
     "Energy Community, Portugal":
-        (
         "- Input variables: 6 selected variables\n"
         "- Output variable: Energy demand (kWh)\n"
-        "- Learning rate: CustemSchedule\n"
+        "- Learning rate: CustomSchedule\n"
         "- Batch size: 96\n"
         "- Sequence length: 168\n"
-        "- Epochs: 350\n"
-        "- Optimizer: Adam",
+        "- Optimizer: Adam\n"
         "- Dropout rate: 0.1\n"
         "- Loss function: MSE (Mean Squared Error)\n"
         "- Early stopping, Patience: 10\n"
         "- Validation split: 0.15\n"
         "- Training epochs: 350\n"
         "- Teacher Forcing: Enabled\n"
-        "- Performance metrics: MAE, R2\n")
+        "- Performance metrics: MAE, R2"
 }
+
 
 # Información sobre pronóstico energético por sitio
 results_text = {
