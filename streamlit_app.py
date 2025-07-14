@@ -423,22 +423,22 @@ inputs_text = {
                                  "- 10) Maximum Wind Speed\n"
                                  "- 11) Day vs. Night\n" 
                                  "- 12) Boolean Precipitation\n\n"
-                                 "The remaining 14 candidate input variables were discarded based on this statistical analysis."),
+                                 "The remaining 14 potential input variables were discarded based on this statistical analysis."),
     "Fish Farm, Ireland": ("After a comprehensive analysis of all results obtained from the different statistical approaches, the following 6 variables were selected as model input variables:\n\n"
                                  "- 1) T-1, T-2, T-3, T-4 and T-5\n"
                                  "- 6) Hours of Year\n\n"
-                                 "The remaining  potential input variables were discarded based on this statistical analysis."),
+                                 "The remaining potential input variables were discarded based on this statistical analysis."),
     "Port of Avilés, Spain": ("After a comprehensive analysis of all results obtained from the different statistical approaches, the following 6 variables were selected as model input variables:\n\n"
                                  "- 1) T-1, T-2, T-3 and T-4\n"
                                  "- 5) Day vs. Night\n"
                                  "- 6) Weekend vs. Weekday\n\n"
-                                 "The remaining  potential input variables were discarded based on this statistical analysis."),
+                                 "The remaining potential input variables were discarded based on this statistical analysis."),
     "Energy Community, Portugal": ("After a comprehensive analysis of all results obtained from the different statistical approaches, the following 6 variables were selected as model input variables:\n\n"
                                  "- 1) Maximum Temperature\n"
                                  "- 2) Minimum Temperature\n"
                                  "- 3) Maximum Humidity\n"
                                  "- 4) T-1, T-2 and T-3\n\n"
-                                 "The remaining 14 candidate input variables were discarded based on this statistical analysis.")
+                                 "The remaining potential input variables were discarded based on this statistical analysis.")
 }
 
 html_paths = {
