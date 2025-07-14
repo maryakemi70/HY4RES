@@ -29,7 +29,12 @@ Using real historical data from **2020 to 2023**, the models follow a sequential
 
 ### 🔍 Streamlit Application
 
-This repository contains an interactive application—built with the **Streamlit** library—for visualizing the results of Work Package 2.1.
+This repository contains an interactive application, built with the **Streamlit** library, for visualizing the results of Work Package 2.1.
+
+🖥️ **The application can be accessed at the following link:**  
+👉 [Insert your Streamlit app URL here](https://hy4res-wp21.streamlit.app/)
+
+---
 
 To run the app locally:
 
