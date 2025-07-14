@@ -488,7 +488,7 @@ hyperparameters_text = {
         "- Performance metrics: MAE, R2\n"),
 
     "Fish Farm, Ireland": (
-        "- Input variables: 7 selected variables\n"
+        "- Input variables: 6 selected variables\n"
         "- Output variable: Energy demand (kWh)\n"
         "- Learning rate: CustemSchedule\n"
         "- Batch size: 96\n"
@@ -505,7 +505,7 @@ hyperparameters_text = {
     ),
     "Port of Avilés, Spain":
         (
-            "- Input variables: 7 selected variables\n"
+            "- Input variables: 6 selected variables\n"
             "- Output variable: Energy demand (kWh)\n"
             "- Learning rate: CustemSchedule\n"
             "- Batch size: 128\n"
@@ -522,7 +522,7 @@ hyperparameters_text = {
         ),
     "Energy Community, Portugal":
         (
-            "- Input variables: 7 selected variables\n"
+            "- Input variables: 6 selected variables\n"
             "- Output variable: Energy demand (kWh)\n"
             "- Learning rate: CustemSchedule\n"
             "- Batch size: 96\n"
@@ -605,7 +605,7 @@ hyperparameters_code_text = {
         ("""
         "# Hyperparameters
         d_model = 256
-        dff = d_model * 4
+        dff = 1024
         num_heads = 4
         num_layers = 2
         input_seq_length = 12
@@ -619,10 +619,10 @@ hyperparameters_code_text = {
         ("""
         "# Hyperparameters
         d_model = 256
-        dff = d_model * 4
+        dff = 1024
         num_heads = 4
         num_layers = 2
-        input_seq_length = 7
+        input_seq_length = 6
         output_seq_length = 168
         dropout_rate = 0.1
         learning_rate = CustomSchedule(d_model)
@@ -632,10 +632,10 @@ hyperparameters_code_text = {
         ("""
         "# Hyperparameters
         d_model = 256
-        dff = d_model * 4
+        dff = 1024
         num_heads = 4
         num_layers = 2
-        input_seq_length = 7
+        input_seq_length = 6
         output_seq_length = 168
         dropout_rate = 0.1
         learning_rate = CustomSchedule(d_model)
@@ -645,10 +645,10 @@ hyperparameters_code_text = {
         ("""
         "# Hyperparameters
         d_model = 256
-        dff = d_model * 4
+        dff = 1024
         num_heads = 4
         num_layers = 2
-        input_seq_length = 7
+        input_seq_length = 6
         output_seq_length = 168
         dropout_rate = 0.1
         learning_rate = CustomSchedule(d_model)
@@ -691,12 +691,12 @@ tab1, tab2, tab3, tab4 = st.tabs(["🧠 Forecast Model Insights", "📍 Pilot Si
 with tab1:
     st.subheader("🧾 **Introduction**:\n\n")
     st.write(
-              "Efficient energy management in pressurized irrigation systems is essential to optimize water and energy use. This research presents a novel hybrid transformer-based model for medium-term forecasting of hourly energy demand in irrigation districts, applied to different end-users:\n"
+              "WP2.1 has developed a set of methodologies for real-time energy demand forecasting across the four sectors of the HY4RES project based on data analytics and artificial intelligence techniques:\n"
                 "- Agriculture: Irrigation System, Seville, Spain\n"
                 "- Aquaculture: Killybegs Seafoods, Ireland\n"
                 "- Ports: Port of Aviles, Spain\n"
                 "- Communities: Marruge, Portugal\n\n"
-                "The proposed model integrates Transformer Neural Networks (TNNs) with fuzzy logic and correlation matrices to improve prediction accuracy. Using real historical data from 2020 to 2023, the model employs a sequence-by-sequence structure to capture complex temporal dependencies. Input variables include weather factors, energy prices, crop distribution, and historical energy consumption patterns. The model has considered:\n"
+                "The performance of the latest AI techniques was evaluated in four sectors: artificial neural networks; deep learning techniques; support vector regression; and model predictive control. A collaborative approach to AI model development was adopted to generate the highest-performing model in each sector. These models learn from historical energy consumption data and other factors, such as weather forecasts, in order to provide a real-time estimate of demand for the coming days. The proposed model integrates Transformer Neural Networks (TNNs) with fuzzy logic and correlation matrices to improve prediction accuracy. Using real historical data from 2020 to 2023, the model employs a sequence-by-sequence structure to capture complex temporal dependencies. Input variables include weather factors, energy prices, crop distribution, and historical energy consumption patterns. The model has considered:\n"
                 "- Time horizon: 7 days (168 hours)\n"
                 "- Prediction frequency: hourly\n"
                 "- -------------------------\n")
