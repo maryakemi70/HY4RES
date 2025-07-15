@@ -675,7 +675,7 @@ img_path = Image.open("images/InterregLogo.png")
 st.image(img_path, use_column_width=False)
 st.title("HY4RES: Hybrid Solutions For Renewable Energy Systems 🌱")
 st.header("WP 2.1: Forecasting Models for predicting real-time energy demand for different users (Agriculture, Aquaculture, Ports & Communities).")
-st.subheader(f"Results: {selected_site}")
+# st.subheader(f"Results: {selected_site}")
 
 
 # --- Select the Tab Visualization ---
